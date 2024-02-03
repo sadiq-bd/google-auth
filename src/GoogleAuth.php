@@ -1,4 +1,10 @@
 <?php
+/**
+ * @name: GoogleAuth
+ * @type: Auth API Handler
+ * @namespace: Sadiq
+ * @author: Sadiq <sadiq.developer.bd@gmail.com>
+ */
 
 namespace Sadiq;
 

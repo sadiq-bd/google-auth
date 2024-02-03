@@ -3,7 +3,7 @@ use Sadiq\GoogleAuth;
 session_start();
 
 require_once __DIR__ . '/config.php';
-require_once __DIR__ . '/src/GoogleAuth.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 $gauth = new GoogleAuth();
 

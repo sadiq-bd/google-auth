@@ -1,0 +1,12 @@
+{
+    "name": "sadiq-bd/google-auth",
+    "description": "Google Auth lib for PHP",
+    "autoload": {
+        "psr-4": {
+            "Sadiq\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
