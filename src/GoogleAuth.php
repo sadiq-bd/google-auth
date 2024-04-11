@@ -85,7 +85,7 @@ class GoogleAuth {
     }
 
     public function fetchAccessTokenWithAuthCode(string $code) {
-        echo $code;
+        
         // Execute cURL request to retrieve the access token
         return $this->fetchApi(
             'https://accounts.google.com/o/oauth2/token',
