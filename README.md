@@ -55,7 +55,7 @@ $googleAuth = new GoogleAuth(
 );
 
 // Redirect to Google OAuth
-header('Location: ' . $googleAuth->getAuthUrl());
+header('Location: ' . $googleAuth->createAuthUrl());
 exit();
 ```
 
