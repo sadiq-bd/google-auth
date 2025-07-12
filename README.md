@@ -48,11 +48,11 @@ require 'vendor/autoload.php';
 
 use SadiqBd\GoogleAuth\GoogleAuth;
 
-$googleAuth = new GoogleAuth([
-    'client_id' => 'YOUR_CLIENT_ID',
-    'client_secret' => 'YOUR_CLIENT_SECRET',
-    'redirect_uri' => 'YOUR_REDIRECT_URI'
-]);
+$googleAuth = new GoogleAuth(
+    'YOUR_CLIENT_ID',
+    'YOUR_CLIENT_SECRET',
+    'YOUR_REDIRECT_URI'
+);
 
 // Redirect to Google OAuth
 header('Location: ' . $googleAuth->getAuthUrl());
